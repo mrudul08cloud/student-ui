@@ -6,4 +6,4 @@ COPY target/studentapp-2.2-SNAPSHOT.war /usr/local/tomcat/webapps/student.war
 
 # Expose the Tomcat port
 EXPOSE 8080
-
+CMD ["catalina.sh", "run"]
